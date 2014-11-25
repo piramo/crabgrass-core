@@ -194,10 +194,8 @@ group :development do
   gem 'rb-inotify', '~> 0.9', :require => false
 end
 
-group :test, :development do
-  # as the name says... debug things
-  gem 'debugger', :platforms => :mri_19
-end
+# as the name says... debug things
+gem 'ruby-debug19', :platforms => :mri_19
 
 
 ## from config/environments/test.rb
