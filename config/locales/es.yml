@@ -125,9 +125,9 @@ es:
       enter_name_of_person: Introduzca el nombre de una persona
   actions:
     task:
-      add: Añadir nuevo Grupo
+      add: Añadir nueva Tarea
     possible:
-      add: Añadir nuevo Posibilidad
+      add: Añadir nueva Posibilidad
   exception:
     title:
       not_found: "%{thing} No Encontrad@"
